@@ -1,0 +1,33 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="4.2">
+    <attributes>
+        <attribute name="name" value="APD 10 SEP 2025"/>
+        <attribute name="authors" value="Arryad"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2025-09-11 11:43:59 AM"/>
+        <attribute name="created" value="QXJyeWFkO0xBUFRPUC1ETzhUMk9TUTsyMDI1LTA5LTExOzExOjI2OjQ4IEFNOzI5NzE="/>
+        <attribute name="edited" value="QXJyeWFkO0xBUFRPUC1ETzhUMk9TUTsyMDI1LTA5LTExOzExOjQzOjU5IEFNOzI7MzA4MQ=="/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <declare name="Nilai" type="Integer" array="False" size=""/>
+            <input variable="Nilai"/>
+            <if expression="nilai &gt; 80">
+                <then>
+                    <output expression="&quot;Grade A&quot;" newline="True"/>
+                </then>
+                <else>
+                    <if expression="nilai &gt; 70">
+                        <then>
+                            <output expression="&quot;Grade B&quot;" newline="True"/>
+                        </then>
+                        <else>
+                            <output expression="&quot;Grade C&quot;" newline="True"/>
+                        </else>
+                    </if>
+                </else>
+            </if>
+        </body>
+    </function>
+</flowgorithm>
